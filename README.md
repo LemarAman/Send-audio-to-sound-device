@@ -3,7 +3,7 @@ This solution is simple and wonderful (and complete) for anyone hoping to easily
 
 The purpose of this AHK script is to play soundfiles as input into your microphone while being able to still utilize your microphone for normal speech. This script can be used for various soundboard use-cases or help-desk type positions where repetitive speech is required (eg. "Thank you for calling, how may I help you?") or for example leaving voicemails.
 
-The soundfiles should be saved in the active directory and should be .wav. They will be played at random when pressing a hotkey of your choice, for the purpose of the script I utilized F1. 
+The soundfiles should be saved in the active directory and should be .wav files. They will be played at random when pressing a hotkey of your choice, for the purpose of the script I utilized F1. This logic can be altered however you'd like to play in a loop or perhaps a single hotkey can be assigned to a particular soundfile, its up to you. 
 
 Do not create a soundfile called cancel.wav. This is assigned to F2 so in the event that the soundfile that is playing through your input needs to be stopped, you can press this hotkey that actives cancel.wav, which doesn't exist. 
 
