@@ -1,7 +1,7 @@
 # Send-audio-to-sound-device
 This solution is simple and wonderful (and complete) for anyone hoping to easily make a soundboard-type script.
 
-The purpose of this AHK script is to play soundfiles as input into your microphone while being able to still utilize your microphone for normal speech. This script can be used for various soundboard use-cases or help-desk type positions where repetitive speech is required (eg. "Thank you for calling, how may I help you?" or for example, leaving voicemails.
+The purpose of this AHK script is to play soundfiles as input into your microphone while being able to still utilize your microphone for normal speech. This script can be used for various soundboard use-cases or help-desk type positions where repetitive speech is required (eg. "Thank you for calling, how may I help you?") or for example leaving voicemails.
 
 The soundfiles should be saved in the active directory and should be .wav. They will be played at random when pressing a hotkey of your choice, for the purpose of the script I utilized F1. 
 
