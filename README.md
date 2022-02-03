@@ -16,12 +16,10 @@ In order to allow utilization of the microphone while playing these soundfiles, 
 - In RECORDING DEVICES, right click on "CABLE-Input (VB-Audio Virtual Cable)" and set it to DEFAULT
 - Make sure that the software yo are using is set to use either your Windows Default Recording Device OR "CABLE-Input (VB-Audio Virtual Cable)"
 
-
 Once VAC is completed, you must configure autohotkey through windows sound settings to utilize it for input/output. 
 Right click on the volume icon in the system tray and Open Sound Settings - scroll down and click App volume and device preferences.
 If AutoHotkey doesn't show up on this list, create a script that plays a soundfile (you can use the one provided given you have soundfiles in your active directory, or just use the soundbeep command built into AHK, with a long enough duration that allows you to enable the input/output on the windows sound settings). Once "AutoHotkey Unicode 64-bit" shows up in the list of device preferences set its default output and input to VAC.
 
-Occasionally, sound settings isn't in device preferences or the script randomly stops working. Play a sound, get it in the list, and then change the playback device to something else and it should begin working again.
-
+Occasionally, sound settings isn't in device preferences or the script randomly stops working. Play a sound, get it in the list, and then change the playback device to something else and back to your preferred playback device it should begin working again. To automate this you can download https://www.soundswitch.com/ and set up the hotkey to be called in the beginning of the script itself.
 
 If anyone wants to add to this code, it doesn't have any built in capability to show when a soundfile is playing. I currently use windows sound settings and watch the microphone input level bar that shows activity when a soundfile is playing, but it would be better if something was built into the script itself.
