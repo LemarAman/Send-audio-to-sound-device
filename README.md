@@ -7,7 +7,7 @@ The soundfiles should be saved in the active directory and should be .wav files.
 
 Do not create a soundfile called cancel.wav. This is assigned to the F2 hotkey so in the event that the soundfile that is playing through your input needs to be stopped, you can press this hotkey that activates cancel.wav, which doesn't exist. 
 
-In order to allow utilization of the microphone while playing these soundfiles, your input/output configurations need to be altered. Follow the steps below to configure.
+In order to allow utilization of the microphone while playing these soundfiles, your windows sounds device preferences for input/output  need to be configured. Follow the steps below to configure.
 
 - Download Virtual Audio Cable from this page: https://vb-audio.com/Cable/index.htm
 - Install Virtual Audio Cable – do NOT touch the software after the install
